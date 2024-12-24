@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+:root {
+    /*Colors*/
+
+    /*Primary Color*/
+    --co-primary-p1:  hsl(4, 100%, 67%);
+
+    /*Secundary Colors*/
+    --co-neltral-n1: hsl(234, 29%, 20%);
+    --co-neltral-n2: hsl(235, 18%, 26%);
+    --co-neltral-n3: hsl(231, 7%, 60%);
+    --co-neltral-w: hsl(0, 0%, 100%);
+
+    /*Fonts*/
+    --ff-primary: "Roboto", serif;
+    --fw-regular: 400;
+    --fw-bold: 700;
+    --fs-paragraph: 16px;
+}

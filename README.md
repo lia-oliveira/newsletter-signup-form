@@ -15,6 +15,7 @@ This is a solution to the [Newsletter sign-up form with success message challeng
     - [What I learned](#what-i-learned)
     - [Continued development](#continued-development)
     - [Useful resources](#useful-resources)
+  - [Use an image as a list marker.](#use-an-image-as-a-list-marker)
   - [Author](#author)
 
 
@@ -69,6 +70,14 @@ Mobile:
 
 👩🏼‍💻 Work in progress
 
+1. Use an image as a list marker.
+
+```css
+ul {
+  list-style-image: url('image.png');
+}
+```
+
 
 
 ### Continued development
@@ -77,8 +86,11 @@ Mobile:
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [SVG Viwer for Windows Explorer](https://github.com/tibold/svg-explorer-extension) - Useful for viewing .svg files in Windows Explorer.
+- [CSS list-style-image Property](https://www.w3schools.com/cssref/pr_list-style-image.php) - 
+Use an image as a list marker.
+- 
+
 
 
 ## Author
