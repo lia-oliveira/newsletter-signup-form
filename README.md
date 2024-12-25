@@ -15,7 +15,6 @@ This is a solution to the [Newsletter sign-up form with success message challeng
     - [What I learned](#what-i-learned)
     - [Continued development](#continued-development)
     - [Useful resources](#useful-resources)
-  - [Use an image as a list marker.](#use-an-image-as-a-list-marker)
   - [Author](#author)
 
 
@@ -77,7 +76,7 @@ ul {
   list-style-image: url('image.png');
 }
 ```
-
+2. Colocar o 
 
 
 ### Continued development
@@ -89,6 +88,7 @@ ul {
 - [SVG Viwer for Windows Explorer](https://github.com/tibold/svg-explorer-extension) - Useful for viewing .svg files in Windows Explorer.
 - [CSS list-style-image Property](https://www.w3schools.com/cssref/pr_list-style-image.php) - 
 Use an image as a list marker.
+- [list-style](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style) - Safari lists and put list=style image inside of container.
 - 
 
 

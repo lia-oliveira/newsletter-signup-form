@@ -6,42 +6,47 @@
   <meta name="description" content="Newsletter sign-up form: A Frontend Mentor challenge solution built with HTML5, CSS3, and JavaScript.">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <title>Frontend Mentor | Newsletter sign-up form with success message by Gillian Oliveira</title>
-  <link rel="stylesheet" href="./assets/css/index.css/">  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 
 <body>
   <main>
-    <picture>
-      <source srcset="./assets/images/illustration-sign-up-desktop.svg" media="(min-width: 1440px)" alt="">
-      <img loading="lazy" src="./assets/images/illustration-sign-up-mobile.svg" alt="">
-    </picture>
-    <article class="content">
-      <h1>Stay updated!</h1>
-      <p>Join 60,000+ product managers receiving monthly updates on:</p>
-      <ul>
-        <li>Product discovery and building what matters</li>
-        <li>Measuring to ensure updates are a success</li>
-        <li>And much more!</li>
-      </ul>
-      <div class="newsletter-input-form">
-        <form action="/subscribe" method="post">
-          <label for="email">Email address</label>
-          <input id="email" name="email" type="email" placeholder="email@company.com" required>
-          <button>Subscribe to monthly newsletter</button>
-        </form>
-      </div>
-    </article>   
-  </main>
-  <div class="sucess-message">
-    <img src="./assets/images/icon-success.svg" alt="">
-    <h2>Thanks for subscribing!</h2>
-    <p>A confirmation email has been sent to ash@loremcompany.com. 
-      Please open it and click the button inside to confirm your subscription.</p>
-    <button>Dismiss message</button>
-  </div>
+    <div class="main-container">
+      <div class="main-container__img">
+        <picture>
+          <!--<source srcset="./assets/images/illustration-sign-up-desktop.svg" media="(min-width: 1440px)" alt="">-->
+          <img loading="lazy" src="./assets/images/illustration-sign-up-mobile.svg" alt="">
+        </picture>
+      </div> <!--main-container__img-->      
+      <article class="content">
+        <h1>Stay updated!</h1>
+        <p>Join 60,000+ product managers receiving monthly updates on:</p>
+        <ul role="list">
+          <li>Product discovery and building what matters</li>
+          <li>Measuring to ensure updates are a success</li>
+          <li>And much more!</li>
+        </ul>
+        <div class="newsletter-input-form">
+          <form action="/subscribe" method="post">
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email" placeholder="email@company.com" required>
+            <button>Subscribe to monthly newsletter</button>
+          </form>
+        </div>
+      </article>   
+    </main>
+    <div class="sucess-message">
+      <img src="./assets/images/icon-success.svg" alt="">
+      <h1>Thanks for subscribing!</h1>
+      <p>A confirmation email has been sent to ash@loremcompany.com. 
+        Please open it and click the button inside to confirm your subscription.</p>
+      <button>Dismiss message</button>
+    </div> <!--sucess-message-->
+    </div> <!--main__container-->
+    
 
 </body>
 </html>

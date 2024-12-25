@@ -7,14 +7,114 @@
     --co-primary-p1:  hsl(4, 100%, 67%);
 
     /*Secundary Colors*/
-    --co-neltral-n1: hsl(234, 29%, 20%);
-    --co-neltral-n2: hsl(235, 18%, 26%);
-    --co-neltral-n3: hsl(231, 7%, 60%);
-    --co-neltral-w: hsl(0, 0%, 100%);
+    --co-neltral-n1: hsl(234, 29%, 20%); /*Dark Slate Grey*/
+    --co-neltral-n2: hsl(235, 18%, 26%); /*Charcoal Grey*/
+    --co-neltral-n3: hsl(231, 7%, 60%); /*Grey*/
+    --co-neltral-w: hsl(0, 0%, 100%); /*White*/
 
     /*Fonts*/
     --ff-primary: "Roboto", serif;
     --fw-regular: 400;
     --fw-bold: 700;
-    --fs-paragraph: 16px;
+    --fs-regular-txt: 16px;
+    --fs-title: 2.5rem;
+}   
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
+
+html,
+body {
+    height: 100%;
+}
+
+html,
+body,
+h1,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-regular-txt);
+    color: var(--co-neltral-n1);
+    background-color: var(--co-neltral-n1);
+}
+
+
+h1 {
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-title);
+    color: var(--co-neltral-n1);
+    margin-bottom: 1.5rem; /*24px*/
+}
+
+p {
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-regular-txt);
+    color: var(--co-neltral-n1);
+    line-height: 1.5;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    max-width: 23.4375rem; /*375px*/
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: var(--co-neltral-w);
+    margin: 0 1rem;    
+}
+
+.main-container__img {
+    max-width: 23.4375rem; /*375px*/
+    width: 100%;
+    border-radius: 0 2.25rem 0 2.25rem; /*36*/   
+}
+
+.main-container picture img {
+    width: 100%;
+}
+
+.content {
+    padding: 2.5rem 1.5rem 2.5rem 1.5rem;
+}
+
+.content p {
+    margin-bottom: 1.5rem; /*24px*/
+}
+
+.content ul {
+    list-style: inside url('./../images/icon-list.svg');
+    margin-bottom: 2.5rem;    
+}
+
+.content ul li {
+    margin-bottom: 0.625rem;
+}
+
+.newsletter-input-form {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.sucess-message {
+    display: none;
+}
+
