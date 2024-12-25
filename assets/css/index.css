@@ -1,0 +1,69 @@
+main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    max-width: 23.4375rem; /*375px*/
+    background-color: var(--co-neutral-w);
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 1rem;    
+}
+
+.main-container__img {
+    max-width: 23.4375rem; /*375px*/
+    width: 100%;
+    border-radius: 0 2.25rem 0 2.25rem; /*36*/   
+}
+
+.main-container picture img {
+    width: 100%;
+}
+
+.content {
+    padding: 2.5rem 1.5rem 2.5rem 1.5rem;
+}
+
+.content p {
+    margin-bottom: 1.5rem; /*24px*/
+}
+
+.content ul {
+    list-style: inside url('./../images/icon-list.svg');
+    margin-bottom: 2.5rem;    
+}
+
+.content ul li {
+    margin-bottom: 0.625rem;
+}
+
+.newsletter-input-form form{
+    display: grid;
+
+}
+
+.newsletter-input-form form label {
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-small);
+    color: var(--co-neutral-n1);
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+}
+
+.newsletter-input-form form input {
+    border: 1px solid var(--co-neutral-n4);
+    border-radius: 0.5rem;
+    color: var(--co-neutral-n4);
+    padding: 1.2rem 1rem;
+    margin-bottom: 1.5rem; /*24px*/
+}
+
+.newsletter-input-form .btn {
+    font-size: var(--fw-regular);
+    padding: 1.2rem 1.5rem;
+}

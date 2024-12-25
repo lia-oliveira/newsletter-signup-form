@@ -76,7 +76,7 @@ ul {
   list-style-image: url('image.png');
 }
 ```
-2. Colocar o 
+1. 
 
 
 ### Continued development
@@ -88,8 +88,8 @@ ul {
 - [SVG Viwer for Windows Explorer](https://github.com/tibold/svg-explorer-extension) - Useful for viewing .svg files in Windows Explorer.
 - [CSS list-style-image Property](https://www.w3schools.com/cssref/pr_list-style-image.php) - 
 Use an image as a list marker.
-- [list-style](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style) - Safari lists and put list=style image inside of container.
-- 
+- [list-style](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style) - Safari lists and put list-style image inside of container.
+- [ARIA Landmarks Example](https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/HTML5.html) - 
 
 
 
